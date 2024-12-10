@@ -1,15 +1,12 @@
 import './App.css'
-import List from './List'
-
+import ColorPicker from './ColorPicker';
 
 function App() {
-
-
-  return (
-    <>
-      <List/>
-    </>
-  )
+  return(
+        <>
+          <ColorPicker/>
+        </>
+  );
 }
 
-export default App
+export default App;
